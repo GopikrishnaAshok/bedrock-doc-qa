@@ -5,7 +5,7 @@ An AI-powered document intelligence and Q&A platform built on **AWS Bedrock, Cla
 Noxora allows users to upload PDF documents and ask natural-language questions about their content. The system uses **Retrieval-Augmented Generation (RAG)** to retrieve relevant information from uploaded documents and generate grounded answers using Anthropic Claude through Amazon Bedrock.
 
 It also supports a **Direct AI mode** for general-purpose questions without document retrieval.
-
+ 
 ---
 
 # ✨ Features
