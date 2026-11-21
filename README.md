@@ -5,6 +5,19 @@ An AI-powered document intelligence and Q&A platform built on **AWS Bedrock, Cla
 Noxora allows users to upload PDF documents and ask natural-language questions about their content. The system uses **Retrieval-Augmented Generation (RAG)** to retrieve relevant information from uploaded documents and generate grounded answers using Anthropic Claude through Amazon Bedrock.
 
 It also supports a **Direct AI mode** for general-purpose questions without document retrieval.
+
+<div align="center">
+
+<a href="https://drive.google.com/drive/folders/1IS_CV6k-XWvYCErDALv6G7j0jXwDpWP7?usp=drive_link">
+  <img src="https://img.shields.io/badge/PROJECT_DEMO-View_Evidence-06b6d4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Noxora Demo and Evidence"/>
+</a>
+
+<br>
+
+<sub>🔒 Private project evidence · Access available upon request</sub>
+
+</div>
+
  
 ---
 
@@ -806,6 +819,42 @@ The project uses an Amazon Bedrock inference profile for Claude.
 The backend converts the configured model/inference-profile ID into the appropriate Bedrock inference-profile ARN when performing Knowledge Base retrieval and generation.
 
 This allows the RAG flow to work with the configured Claude inference profile.
+
+---
+
+# 🎬 Project Demo & Technical Evidence
+
+<div align="center">
+
+### Noxora — AI Knowledge Assistant
+
+Review supporting technical materials for the AWS Bedrock-powered document intelligence and RAG platform.
+
+<a href="https://drive.google.com/drive/folders/1IS_CV6k-XWvYCErDALv6G7j0jXwDpWP7?usp=drive_link">
+  <img src="https://img.shields.io/badge/Google_Drive-View_Project_Demo_%26_Evidence-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="View Noxora Demo and Technical Evidence"/>
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/ACCESS-RESTRICTED-64748B?style=flat-square" alt="Restricted Access"/>
+
+<br>
+
+<sub>Supporting evidence is maintained in a private Google Drive folder. Access is available upon request for technical review and recruitment.</sub>
+
+</div>
+
+### Technical Areas Covered
+
+| Area | Implementation |
+|---|---|
+| Document Intelligence | PDF upload, S3 pre-signed URLs, asynchronous Knowledge Base ingestion |
+| Generative AI & RAG | Amazon Bedrock, Claude, document-grounded answers, source references |
+| Backend & Storage | API Gateway, containerized Lambda, DynamoDB query history, Redis caching |
+| DevOps & Monitoring | Docker, Amazon ECR, GitHub Actions CI/CD, CloudWatch |
+| Security | AWS IAM permissions, input validation, secure browser-to-S3 uploads |
+
+> **Note:** This link points to a restricted folder, not a publicly accessible live application. Evidence files are shared with reviewers after access is approved.
 
 ---
 
